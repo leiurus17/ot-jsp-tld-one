@@ -13,6 +13,7 @@ public class MyTagHandler extends TagSupport {
 	 */
 	private static final long serialVersionUID = -5838422655348159039L;
 
+	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut(); // returns the instance of JspWriter
 		
